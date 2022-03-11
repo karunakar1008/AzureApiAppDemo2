@@ -1,5 +1,7 @@
+using DssDemoApiApp.Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
@@ -19,7 +21,7 @@ namespace DssDemoApiApp
                 var services = scope.ServiceProvider;
                 try
                 {
-                    var context = services.GetRequiredService<WebAPIDemoinCoreContext>();
+                    var context = services.GetRequiredService<DssDemoApiAppContext>();
                     context.Database.EnsureCreated();
                 }
                 catch (Exception ex)
