@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DssDemoApiApp", "DssDemoApiApp\DssDemoApiApp.csproj", "{31E08406-2093-4E53-A666-9471547F3DC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31E08406-2093-4E53-A666-9471547F3DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E08406-2093-4E53-A666-9471547F3DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E08406-2093-4E53-A666-9471547F3DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E08406-2093-4E53-A666-9471547F3DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F6C81AC-CCFB-4A08-B66F-F4B40E6C937D}
+	EndGlobalSection
+EndGlobal
